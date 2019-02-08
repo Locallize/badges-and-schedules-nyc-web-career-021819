@@ -32,6 +32,7 @@ def printer (attendees)
   counter = 0 
   while counter < attendees.length
   name = attendees
+  puts h
   puts assign_rooms(name)
   counter += 1
 end
