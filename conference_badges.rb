@@ -28,5 +28,5 @@ list_assign_rooms
 end
 
 def printer (attendees)
-  puts "Hello, my name is #{attendees}"
+  puts "Hello, my name is #{attendees[1]}"
 end
