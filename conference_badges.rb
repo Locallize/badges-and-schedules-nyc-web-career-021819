@@ -30,8 +30,9 @@ end
 def printer (attendees)
   counter = 0 
   while
-
+  puts "Hello, my name is #{attendees[1]}"
+  counter += 1
   end
   
-  puts "Hello, my name is #{attendees[1]}"
+  
 end
