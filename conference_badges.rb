@@ -28,7 +28,7 @@ list_assign_rooms
 end
 
 def printer (attendees)
-  room_num(attendees)
+  assign_rooms(attendees)
   # counter = 0 
   # while counter < attendees.length
   # puts "Hello, my name is #{attendees[counter]}."
