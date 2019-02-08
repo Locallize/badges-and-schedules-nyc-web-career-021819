@@ -21,10 +21,10 @@ def assign_rooms(array_of_names)
   
   while room_num <= array_of_names.length
   list_items = "Hello, #{array_of_names[room_num-1]}! You'll be assigned to room #{room_num}!"
-  list_assign_rooms << list_items 
+  puts list_assign_rooms << list_items 
   room_num += 1
   end
-list_assign_rooms
+# list_assign_rooms
 end
 
 def printer (attendees)
