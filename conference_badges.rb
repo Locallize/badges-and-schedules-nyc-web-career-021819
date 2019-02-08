@@ -35,7 +35,7 @@ def printer (attendees)
   counter += 1
 end
   while counter < attendees.length
-  puts assign_rooms(attendees)
+  puts assign_rooms(attendees[counter])
   counter += 1
 end
 end
