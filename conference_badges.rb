@@ -33,6 +33,5 @@ def printer (attendees)
   puts "Hello, my name is #{attendees[counter]}.")
   counter += 1
   end
-  
-  
+end
 end
