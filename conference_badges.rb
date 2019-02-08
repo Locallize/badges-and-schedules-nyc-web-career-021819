@@ -29,10 +29,9 @@ end
 
 def printer (attendees)
   puts assign_rooms(attendees)
-  # counter = 0 
-  # while counter < attendees.length
-  # puts "Hello, my name is #{attendees[counter]}."
-  # puts a
-  # counter += 1
-
+  counter = 0 
+  while counter < attendees.length
+  puts assign_rooms(attendees)
+  counter += 1
+end
 end
