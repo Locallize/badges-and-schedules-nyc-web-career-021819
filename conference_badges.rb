@@ -28,7 +28,7 @@ list_assign_rooms
 end
 
 def printer (attendees)
-  puts assign_rooms(attendees)
+  
   counter = 0 
   while counter < attendees.length
   puts assign_rooms(attendees)
