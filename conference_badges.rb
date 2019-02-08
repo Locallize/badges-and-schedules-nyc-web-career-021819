@@ -28,5 +28,10 @@ list_assign_rooms
 end
 
 def printer (attendees)
+  counter = 0 
+  while
+
+  end
+  
   puts "Hello, my name is #{attendees[1]}"
 end
