@@ -33,5 +33,5 @@ def printer (attendees)
   pin = puts "Hello, my name is #{attendees[counter]}."
   counter += 1
 end
-pin.chomp
+pin
 end
