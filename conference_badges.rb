@@ -30,8 +30,8 @@ end
 def printer (attendees)
   counter = 0 
   while counter < attendees.length
-  pin = puts "Hello, my name is #{attendees[counter]}."
+  puts "Hello, my name is #{attendees[counter]}."
   counter += 1
 end
-pin
+
 end
